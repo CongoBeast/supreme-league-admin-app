@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Supreme Admin",
+    "slug": "supreme-admin",
+    "scheme": "supremeadmin",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "backgroundColor": "#f4f6fa",
+    "primaryColor": "#0d6efd",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.supremeleague.admin",
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": false
+        }
+      }
+    },
+    "android": {
+      "package": "com.supremeleague.admin",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#101828"
+      },
+      "edgeToEdgeEnabled": true,
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "plugins": [],
+    "extra": {
+      "purpose": "Admin-only native client",
+      "eas": {
+        "projectId": "ed7a9e2d-1c7f-443d-b308-6d8ec4fefd6a"
+      }
+    }
+  }
+}
